@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumberUI", "GuessTheNumberUI\GuessTheNumberUI.csproj", "{C850BC98-16B1-4703-8F35-6868AA15E592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumberLibrary", "GuessTheNumberLibrary\GuessTheNumberLibrary.csproj", "{EBAB5439-B52F-4849-8F18-60DB214D0588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C850BC98-16B1-4703-8F35-6868AA15E592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C850BC98-16B1-4703-8F35-6868AA15E592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C850BC98-16B1-4703-8F35-6868AA15E592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C850BC98-16B1-4703-8F35-6868AA15E592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAB5439-B52F-4849-8F18-60DB214D0588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAB5439-B52F-4849-8F18-60DB214D0588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAB5439-B52F-4849-8F18-60DB214D0588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAB5439-B52F-4849-8F18-60DB214D0588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEFA098C-99D7-4086-BFFF-F5E8C082A537}
+	EndGlobalSection
+EndGlobal
