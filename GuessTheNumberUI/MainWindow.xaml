@@ -22,33 +22,38 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <!--Player and previous played games results-->
-            <Button Name="startGameButton" Content="Iniciar" Grid.Column="0"/>
+            <Button Name="startGameButton" Content="Iniciar" Grid.Column="0" Click="startGameButton_Click"  />
             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Label Content="Jugador:" Padding="5"/>
                 <TextBlock Name="playerName" Text="Juego sin inicar" Padding="5"/>
             </StackPanel>
             <StackPanel Grid.Column="2" Orientation="Horizontal">
                 <Label Content="Puntaje acumulado: " Padding="5"/>
-                <TextBlock Text="Juego sin iniciar" Padding="5"/>
+                <TextBlock Name="gameScoreText" Text="Juego sin iniciar" Padding="5"/>
             </StackPanel>
             <!--Initial Condition Panel-->
-            <StackPanel Name="gameInterval" Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="3" Visibility="Visible" HorizontalAlignment="Center" Margin="5">
+            <StackPanel Name="gameInterval" Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="3" Visibility="Collapsed" HorizontalAlignment="Center" Margin="5">
                 <Label Content="Numero mas bajo del juego: " Padding="4 0 0 0"/>
-                <TextBox Name="lowerNumberTextBox" Text="0" MinWidth="20"/>
+                <TextBox Name="lowerNumberTextBox" Text="0" MinWidth="20" IsEnabled="False"/>
                 <Label Content="Numero mas alto del juego: " Padding="4 0 0 0"/>
-                <TextBox Name="upperNumberTextBox" Text="0" MinWidth="20"/>
-                <Button Content="Ingresar Condiciones!" Margin="14 0 0 0"/>
+                <TextBox Name="upperNumberTextBox" Text="0" MinWidth="20" IsEnabled="False"/>
+                <Button Name="gameConditions" Content="Ingresar Condiciones!" Margin="14 0 0 0" Click="gameConditions_Click" IsEnabled="False"/>
+            </StackPanel>
+            <StackPanel Name="gameIntervalData" Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="3" Visibility="Collapsed" HorizontalAlignment="Center" Margin="5">
+                <TextBlock Name="gameIntervalText" Foreground="Coral" Visibility="Collapsed"/>
             </StackPanel>
             <!--Game in progress info Panel-->
             <StackPanel Name="gameStatusPanel" Orientation="Vertical" Grid.Row="2" Grid.ColumnSpan="3" Visibility="Visible" HorizontalAlignment="Center">
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <Label Content="Intentos Restantes:" Padding="4 0 0 0"/>
-                    <TextBlock Name="triesLeft" Text="0" Padding="4 0 0 0"/>
+                    <TextBlock Name="triesLeftText" Text="0" Padding="4 0 0 0"/>
                     <Label Content="Numero a suponer:" Padding="15 0 15 0"/>
-                    <TextBox Name="numeroSupuesto" Text="Digita un numero"/>
-                    <Button Name="testNumber" Content="Suponer!" Width="auto" Margin="6 0 0 0"/>
+                    <TextBox Name="numeroSupuestoBox" Text="0" IsEnabled="False"/>
+                    <Button Name="testNumberButton" Content="Suponer!" Width="auto" Margin="6 0 0 0" IsEnabled="False" Click="testNumberButton_Click"/>
                 </StackPanel>
-                <TextBlock Name="GuessResult" Text="Texto respuesta" Foreground="Red" FontSize="20" HorizontalAlignment="Center" Visibility="Visible"/>
+                <TextBlock Name="GuessResult" Text="Texto respuesta" Foreground="Red" FontSize="20" HorizontalAlignment="Center" Visibility="Collapsed"/>
+                <Button Name="PlayAgainButton" Content="Jugar de Nuevo" MaxWidth="100" Visibility="Collapsed" Click="PlayAgainButton_Click"/>
+               
             </StackPanel>
         </Grid>
     </StackPanel>

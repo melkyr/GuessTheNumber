@@ -1,0 +1,16 @@
+﻿<Window x:Class="GuessTheNumberUI.MyInputBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuessTheNumberUI"
+        mc:Ignorable="d"
+        Title="Ingresa tu Nombre" Width="220" Height="160" MinWidth="180" MinHeight="140">
+    <StackPanel>
+        <Label Content="Por favor ingresa tu nombre:" Grid.ColumnSpan="2" Margin="1"/>
+        <TextBox Name="inputBox" Margin="5"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Aceptar" Margin="10" Click="Button_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

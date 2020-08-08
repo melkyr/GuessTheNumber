@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "GuessTheNumberUI/1.0.0": {
-        "dependencies": {
-          "GuessTheNumberLibrary": "1.0.0"
-        },
-        "runtime": {
-          "GuessTheNumberUI.dll": {}
-        }
-      },
       "GuessTheNumberLibrary/1.0.0": {
         "runtime": {
           "GuessTheNumberLibrary.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "GuessTheNumberUI/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "GuessTheNumberLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,

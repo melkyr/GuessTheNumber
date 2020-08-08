@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Excelstor4\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\GuessTheNumberLibrary.csproj": {}
+    "C:\\Users\\Zesteriaç\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\GuessTheNumberLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Excelstor4\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\GuessTheNumberLibrary.csproj": {
+    "C:\\Users\\Zesteriaç\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\GuessTheNumberLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Excelstor4\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\GuessTheNumberLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Zesteriaç\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\GuessTheNumberLibrary.csproj",
         "projectName": "GuessTheNumberLibrary",
-        "projectPath": "C:\\Users\\Excelstor4\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\GuessTheNumberLibrary.csproj",
-        "packagesPath": "C:\\Users\\Excelstor4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Excelstor4\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Zesteriaç\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\GuessTheNumberLibrary.csproj",
+        "packagesPath": "C:\\Users\\Zesteriaç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zesteriaç\\source\\repos\\melkyr\\GuessTheNumber\\GuessTheNumberLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Excelstor4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zesteriaç\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

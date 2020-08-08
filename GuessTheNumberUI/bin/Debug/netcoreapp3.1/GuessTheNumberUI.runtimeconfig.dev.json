@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Excelstor4\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Excelstor4\\.nuget\\packages"
+      "C:\\Users\\Zesteriaç\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Zesteriaç\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

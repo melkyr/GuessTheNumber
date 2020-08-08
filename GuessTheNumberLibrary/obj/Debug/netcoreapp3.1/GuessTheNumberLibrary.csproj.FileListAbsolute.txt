@@ -1,0 +1,17 @@
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\bin\Debug\netcoreapp3.1\GuessTheNumberLibrary.deps.json
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\bin\Debug\netcoreapp3.1\GuessTheNumberLibrary.dll
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\bin\Debug\netcoreapp3.1\GuessTheNumberLibrary.pdb
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.AssemblyInfoInputs.cache
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.AssemblyInfo.cs
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.dll
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.pdb
+C:\Users\Excelstor4\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.csprojAssemblyReference.cache
+C:\Users\Zesteriaç\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\bin\Debug\netcoreapp3.1\GuessTheNumberLibrary.deps.json
+C:\Users\Zesteriaç\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\bin\Debug\netcoreapp3.1\GuessTheNumberLibrary.dll
+C:\Users\Zesteriaç\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\bin\Debug\netcoreapp3.1\GuessTheNumberLibrary.pdb
+C:\Users\Zesteriaç\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.AssemblyInfoInputs.cache
+C:\Users\Zesteriaç\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.AssemblyInfo.cs
+C:\Users\Zesteriaç\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Zesteriaç\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.dll
+C:\Users\Zesteriaç\source\repos\melkyr\GuessTheNumber\GuessTheNumberLibrary\obj\Debug\netcoreapp3.1\GuessTheNumberLibrary.pdb

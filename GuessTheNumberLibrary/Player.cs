@@ -11,6 +11,7 @@ namespace GuessTheNumberLibrary
 
         public Player()
         {
+            Score = new Dictionary<string, int>();
             Score.Add("Wins", 0);
             Score.Add("Loses", 0);
         }
